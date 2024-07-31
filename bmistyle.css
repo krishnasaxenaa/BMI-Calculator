@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #515151;
+}
+
+.heading-box {
+    margin: 0;
+    padding: 0;
+    background-color: burlywood
+}
+
+.heading-box h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header ul li {
+    margin-left: 20px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.header ul li a:hover {
+    color: #007bff;
+}
+
+.body-section{
+    height: 600px;
+}
+
+.pre-section{
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh 80vh 0 80vh;
+    padding: 30px;
+    border-radius: 18px;
+    border: 2px solid black;
+    background-color: #919191;
+}
+
+.login{
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.height{
+    margin: 16px auto;
+}
+
+.weight{
+    margin: 16px auto;
+}
+
+button{
+
+    background-color:rgba(9, 144, 255, 0.884);
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px; 
+    border-radius:16px ;
+    margin: 16px auto ;
+}
+hr{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.guide{
+    padding: 20px;
+}
+
